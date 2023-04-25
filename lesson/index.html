@@ -10,7 +10,22 @@
 <body>
     <header>TABLE</header><br>
     <main>
-    <table border="1px">
+        <style>
+            table{
+                width: 100%;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 5px;
+            }
+        </style>
+    <table>
+        <caption style="font-size: 20px; text-align: bottom;">
+            Order detials table 
+        </caption>
         <tbody>
             <tr>
                 <th rowspan="11">TCB</th>
@@ -63,12 +78,17 @@
                 <th colspan="3">Total</th>
                 <td> 272.00 $ </td>
             </tr>
-        </tbody>
+        </tbody><br>
+
+       
     </table>
 
 
 
     </main>
-    
+    <br>
+     <footer> 
+            &copy; 2023 
+        </footer>
 </body>
 </html>
