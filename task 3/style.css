@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+margin-top: 140px;
+
+.result {
+    width: 400px;
+    height: 400px;
+    background-color:  hsla(256, 72%, 46%, 1) ;
+  border-radius: 30px;
+  text-align: center;
+  >h2{
+    color: hsl(0, 0%, 100%);
+    margin: 25px;
+  }
+
+  }
+  .gradient {
+    background-image: radial-gradient(circle at 50% hsl(252, 100%, 67%) );
+  margin-top: 22%;
+  font-size: 26px;
+  >p{
+    font-size: 14px;
+  }
+
+  
+}
+}
