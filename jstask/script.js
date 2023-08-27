@@ -1,22 +1,14 @@
-let setOfRequests = ["hello world", "madam", "racecar", "redder", "madam"];
+isOlderthan19 = true;
+isOlderthan19 = false;
 
-function isPalindrome(string) {
-    let reversedString = "";
+let firstname = 'Johny'
+console.log(firstname);
+  
 
-    for (let index = string.length - 1; index >= 0; index--) {
-        const element = string[index];
-        reversedString += element;
-    }
+let age = 10;
 
-    return string === reversedString;
+if ( age >  18){
+    console.log('You are young')
+}else if ( age <= 10){
+    console.log('you are baby')
 }
-
-for (let index = 0; index < setOfRequests.length; index++) {
-    const elementInSetOfRequests = setOfRequests[index];
-    console.log(
-        `${elementInSetOfRequests} isPalindrome ` +
-        isPalindrome(elementInSetOfRequests)
-    );
-}
-
-

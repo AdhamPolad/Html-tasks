@@ -1,0 +1,146 @@
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F8FD;
+    
+}
+.aside{
+    width: 255px;
+    height: 529px;
+}
+.main > .aside > .feedback{
+    width: 255px;
+    height: 137px;
+    background: radial-gradient( 128.88% 128.88% at 103.9% -10.39%, #e84d70 0, #a337f6 53.09%, #28a7ed 100% );
+    border-radius: 10px;
+    padding: 17px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main > .aside > .feedback > h2{
+    size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 40px;
+    }
+    .main > .aside > .feedback > p{
+        color: #fff;
+        font-weight: 500;
+        size: 15px;
+        position: relative;
+        bottom: 30px;
+      
+    }
+
+.main > .aside{
+   margin: 40px;
+}
+
+.main > .aside > .all{
+width: 255px;
+height: 166px;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 35px;
+background-color: white;
+border-radius: 10px;
+> button{       
+    height: 30px;
+    margin: 13px;
+    background-color: #F2F4FF;
+    border: none;
+    color: #4661E6 ;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.goy{
+    background-color: #4661E6;
+    color: #fff;
+
+}
+
+}   
+
+.main > .aside > .roadmap {
+    width: 255px;
+    height: 178px;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+
+.main > .aside > .roadmap > .planned {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    >img{
+        height: 10px;
+        
+    }
+    > .two{
+        margin-left: 90px;
+        color: #647196;
+        font-weight: 700;
+        
+    }
+    >p{
+        margin-left: 30px;
+        color: #647196;
+        font-weight: 400;
+    }
+}
+.main > .aside > .roadmap > .In-progress {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    >img{
+        height: 10px;
+        
+    }
+    > .two{
+        margin-left: 70px;
+        color: #647196;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    >p{
+        margin-left: 30px;
+        color: #647196;
+        font-weight: 400;
+    }
+}
+.main > .aside > .roadmap > .live {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    >img{
+        height: 10px;
+        
+    }
+    > .two{
+        margin-left: 115px;
+        color: #647196;
+        font-weight: 700;
+    }
+    >p{
+        margin-left: 30px;
+        color: #647196;
+        font-weight: 400;
+    }
+}
+
+.main > .aside > .roadmap > .view{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    >h2{
+       margin-right: 70px;
+       color: #3A4374;
+    }
+}
